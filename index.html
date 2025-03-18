@@ -26,7 +26,7 @@
           <p>Contact</p>
         </div>
         <div>
-          <h3>Profie</h3>
+          <h3>Profile</h3>
           <!-- <svg
             width="56.000000"
             height="56.000000"
@@ -104,10 +104,20 @@
     <!-- categories section start  -->
     <section class="w-11/12 mx-auto">
       <div id="all-categories" class="flex gap-5 justify-center"></div>
-      <div id="categories-pets" class="grid grid-cols-3 gap-5 my-5"></div>
-      <div id="categories-not-found" class="my-5"></div>
+      <div id="pets" class="py-10">
+        <div class="flex items-center justify-center">
+          <img src="./images/pet.webp" alt="" />
+        </div>
+      </div>
+      <div id="categories-pets" class="grid grid-cols-3 gap-5"></div>
+      <div id="categories-not-found" class=""></div>
     </section>
     <!-- categories section end  -->
+    <!-- Open the modal using ID.showModal() method -->
+    <!-- <button class="btn" onclick="my_modal_1.showModal()">open modal</button> -->
+    <dialog id="my_modal_1" class="modal">
+      <div id="show-modal-detail" class="modal-box"></div>
+    </dialog>
     <script src="./js/index.js"></script>
   </body>
 </html>
